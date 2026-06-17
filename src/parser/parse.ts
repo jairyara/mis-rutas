@@ -14,7 +14,7 @@ const reRowStart = new RegExp(`^(${TIME})`);
 
 /**
  * Parte una fila por TAB o por 2+ espacios. Así sobrevive a single-spaces
- * internos como "Inicio servicio" o "9-11_FRANJA_SECA_NM_ (2645)", y tolera
+ * internos como "Inicio servicio" o "R1_RUTA_DEMO_NM_ (1001)", y tolera
  * que el correo llegue con espacios en vez de tabuladores.
  */
 function splitRow(line: string): string[] {

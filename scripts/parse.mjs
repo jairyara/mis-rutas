@@ -17,7 +17,7 @@ const reCabeceraTabla = /^Hora\s+Inicio/i;
 const reRowStart = new RegExp(`^(${TIME})`);
 
 // Una fila se parte por TAB o por 2+ espacios (asi sobrevive a single-spaces
-// internos como "Inicio servicio" o "9-11_FRANJA_SECA_NM_ (2645)").
+// internos como "Inicio servicio" o "R1_RUTA_DEMO_NM_ (1001)").
 function splitRow(line) {
   return line
     .split(/\t|\s{2,}/)
