@@ -75,17 +75,6 @@ export default function VistaProgramacion({ data }: { data: Programacion }) {
         </div>
       )}
 
-      {data.avisos.length > 0 && (
-        <div className="avisos">
-          <strong>⚠ Hay {data.avisos.length} línea(s) que no se entendieron:</strong>
-          <ul>
-            {data.avisos.map((a, i) => (
-              <li key={i}>{a}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
       {data.dias.map((dia, i) => (
         <CardDia key={i} dia={dia} />
       ))}

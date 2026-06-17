@@ -1,0 +1,91 @@
+Buen día Señor Operador.
+
+(Datos de ejemplo — ficticios, solo para demostración)
+
+Adjunto enviamos Hojas de trabajo correspondientes a la semana de ejemplo.
+
+Cordialmente,
+Programación.
+
+100245 - CONDUCTOR DE PRUEBA
+
+FECHA: Lunes 06/04/2026
+ASIGNACION: DESC
+DESC
+
+FECHA: Martes 07/04/2026
+ASIGNACION: DESC
+DESC
+
+FECHA: Miércoles 08/04/2026
+ASIGNACION: KE900101 AMPLITUD: 09:45:30 PRODUCCION: 08:50:00
+Trabajo 1 (03:30:30 - 09:06:45)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+03:30:30    Inicio servicio    -    PATIO DEMO SUR    -
+03:35:30    Vacío    2    PATIO DEMO SUR    KE9990002
+03:40:30    R1_RUTA_DEMO_NM_ (1001)    2    ESTACIÓN CENTRAL_R1    KE9990002
+04:06:00    STANDBY    -    ESTACIÓN CENTRAL_R1    -
+04:09:15    R1_RUTA_DEMO_NM_ (1001)    2    ESTACIÓN CENTRAL_R1    KE9990002
+09:05:45 - 09:06:45    Fin de relevo    -    ESTACIÓN CENTRAL_R1    -
+Trabajo 2 (10:02:15 - 13:16:00)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+10:02:15    Relevo    -    ESTACIÓN CENTRAL_R1    -
+10:05:15    R1_RUTA_DEMO_NM_ (1001)    5    ESTACIÓN CENTRAL_R1    KE9990005
+13:15:00 - 13:16:00    Fin de relevo    -    ESTACIÓN CENTRAL_R1    -
+
+FECHA: Jueves 09/04/2026
+ASIGNACION: KE900149 AMPLITUD: 09:15:30 PRODUCCION: 08:24:45
+Trabajo 1 (03:53:00 - 09:21:45)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+03:53:00    Inicio servicio    -    PATIO DEMO SUR    -
+03:58:00    Vacío    5    PATIO DEMO SUR    KE9970005
+04:18:00    R2_RUTA_DEMO_AM (1002)    5    TERMINAL NORTE_R2    KE9970005
+04:28:00    R2_RUTA_DEMO (1003)    5    TERMINAL NORTE_R2    KE9970005
+09:20:45 - 09:21:45    Fin de relevo    -    TERMINAL NORTE_R2    -
+Trabajo 2 (10:12:30 - 13:08:30)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+10:12:30    Relevo    -    TERMINAL NORTE_R2    -
+10:15:30    R2_RUTA_DEMO (1003)    6    TERMINAL NORTE_R2    KE9970006
+13:07:30 - 13:08:30    Fin de relevo    -    TERMINAL NORTE_R2    -
+
+FECHA: Viernes 10/04/2026
+ASIGNACION: KE900098 AMPLITUD: 09:48:30 PRODUCCION: 09:01:00
+Trabajo 1 (03:43:00 - 09:40:00)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+03:43:00    Inicio servicio    -    PATIO DEMO NORTE    -
+03:48:00    Vacío    4    PATIO DEMO NORTE    KE9940004
+04:00:00    R3_RUTA_DEMO_AM (1004)    4    PORTAL DEMO_R3    KE9940004
+09:39:00 - 09:40:00    Fin de relevo    -    ESTACIÓN CENTRAL_R3    -
+Trabajo 2 (10:27:30 - 13:31:30)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+10:27:30    Relevo    -    ESTACIÓN CENTRAL_R3    -
+10:30:30    R3_RUTA_DEMO_NM_ (1005)    10    ESTACIÓN CENTRAL_R3    KE9940010
+13:30:30 - 13:31:30    Fin de relevo    -    ESTACIÓN CENTRAL_R3    -
+
+FECHA: Sábado 11/04/2026
+ASIGNACION: KE900030 AMPLITUD: 10:10:45 PRODUCCION: 09:23:15
+Trabajo 1 (03:25:00 - 09:53:00)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+03:25:00    Inicio servicio    -    PATIO DEMO NORTE    -
+03:30:00    Vacío    2    PATIO DEMO NORTE    KE9930002
+03:48:00    R4_RUTA_DEMO_AM (1006)    2    BARRIO DEMO_R4    KE9930002
+09:52:00 - 09:53:00    Fin de relevo    -    ESTACIÓN CENTRAL_R4    -
+Trabajo 2 (10:40:30 - 13:35:45)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+10:40:30    Relevo    -    ESTACIÓN CENTRAL_R4    -
+10:43:30    R4_RUTA_DEMO (1007)    6    ESTACIÓN CENTRAL_R4    KE9930006
+13:34:45 - 13:35:45    Fin de relevo    -    ESTACIÓN CENTRAL_R4    -
+
+FECHA: Domingo 12/04/2026
+ASIGNACION: KE900053 AMPLITUD: 08:20:00 PRODUCCION: 07:44:00
+Trabajo 1 (03:41:30 - 08:06:30)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+03:41:30    Inicio servicio    -    PATIO DEMO SUR    -
+03:46:30    Vacío    2    PATIO DEMO SUR    KE9850002
+03:51:30    R1_RUTA_DEMO_NM_ (1001)    2    ESTACIÓN CENTRAL_R1    KE9850002
+08:05:30 - 08:06:30    Fin de relevo    -    ESTACIÓN CENTRAL_R1    -
+Trabajo 2 (08:42:30 - 12:01:30)
+Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
+08:42:30    Relevo    -    ESTACIÓN CENTRAL_R1    -
+08:45:30    R1_RUTA_DEMO_NM_ (1001)    1    ESTACIÓN CENTRAL_R1    KE9850001
+12:00:30 - 12:01:30    Fin de relevo    -    ESTACIÓN CENTRAL_R1    -

@@ -22,6 +22,33 @@ h1 {
   text-align: center;
   color: #555;
   margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.ayuda-ejemplo {
+  text-align: center;
+  color: #555;
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.ayuda-ejemplo a,
+.enlace {
+  color: #1c4f8a;
+  text-decoration: underline;
+}
+
+.enlace {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.nota-ejemplo {
+  color: #999;
 }
 
 textarea {
@@ -63,13 +90,82 @@ hr {
   margin-bottom: 1rem;
 }
 
-.avisos {
-  background: #fff3cd;
-  border: 1px solid #e0c46b;
+/* ---- Banner de validación ---- */
+.banner {
   border-radius: 8px;
   padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
-  font-size: 0.9em;
+  margin: 1rem 0;
+  font-size: 0.92em;
+  border: 1px solid;
+}
+
+.banner-titulo {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.banner-icono {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.85em;
+  flex: none;
+}
+
+.banner-detalles {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.banner-detalles li {
+  margin-bottom: 0.25rem;
+}
+
+.banner-lineas {
+  margin-top: 0.5rem;
+}
+
+.banner-lineas summary {
+  cursor: pointer;
+  color: #555;
+}
+
+.banner-lineas code {
+  font-size: 0.85em;
+  word-break: break-all;
+}
+
+.banner-error {
+  background: #fdecea;
+  border-color: #e0a3a0;
+  color: #8a1c14;
+}
+.banner-error .banner-icono {
+  background: #c0392b;
+}
+
+.banner-aviso {
+  background: #fff3cd;
+  border-color: #e0c46b;
+  color: #6b5300;
+}
+.banner-aviso .banner-icono {
+  background: #d79b00;
+}
+
+.banner-ok {
+  background: #e8f5e9;
+  border-color: #a5d6a7;
+  color: #1b5e20;
+}
+.banner-ok .banner-icono {
+  background: #2e7d32;
 }
 
 .dia {

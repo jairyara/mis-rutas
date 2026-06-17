@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- Título -->
+  <text x="60" y="78" font-size="40" font-weight="bold" fill="#0d1b2a">El antes y el después con <tspan fill="#1ab877">Mis Turnos</tspan></text>
+
+  <!-- Fondo del área de gráfico -->
+  <rect x="60" y="140" width="1080" height="360" rx="24" fill="#eafaf0"/>
+
+  <!-- Gridlines verticales (0,20,40,60,80,100 min) -->
+  <g stroke="#c7ead8" stroke-width="2">
+    <line x1="320" y1="160" x2="320" y2="470"/>
+    <line x1="476" y1="160" x2="476" y2="470"/>
+    <line x1="632" y1="160" x2="632" y2="470"/>
+    <line x1="788" y1="160" x2="788" y2="470"/>
+    <line x1="944" y1="160" x2="944" y2="470"/>
+    <line x1="1100" y1="160" x2="1100" y2="470"/>
+  </g>
+  <g font-size="20" fill="#7a8a82" text-anchor="middle">
+    <text x="320" y="498">0</text>
+    <text x="476" y="498">20</text>
+    <text x="632" y="498">40</text>
+    <text x="788" y="498">60</text>
+    <text x="944" y="498">80</text>
+    <text x="1100" y="498">100</text>
+  </g>
+
+  <!-- Barra: Antes (manual) -->
+  <text x="290" y="222" font-size="22" font-weight="bold" fill="#0d1b2a" text-anchor="end">Antes (manual)</text>
+  <rect x="320" y="195" width="624" height="56" rx="10" fill="#111418"/>
+  <text x="966" y="234" font-size="30" font-weight="bold" fill="#0d1b2a">80 min</text>
+
+  <!-- Barra: Después (con la app) -->
+  <text x="290" y="402" font-size="22" font-weight="bold" fill="#0d1b2a" text-anchor="end">Después (con la app)</text>
+  <rect x="320" y="375" width="62" height="56" rx="10" fill="#1ab877"/>
+  <text x="404" y="414" font-size="30" font-weight="bold" fill="#0d1b2a">8 min</text>
+
+  <!-- Badge de ahorro -->
+  <g>
+    <rect x="600" y="278" width="300" height="92" rx="46" fill="#ffffff" stroke="#1ab877" stroke-width="4"/>
+    <text x="750" y="340" font-size="48" font-weight="bold" fill="#1ab877" text-anchor="middle">−72 min</text>
+  </g>
+
+  <!-- Subtítulo / cierre -->
+  <text x="600" y="556" font-size="30" font-weight="bold" fill="#0d1b2a" text-anchor="middle">90 % menos tiempo · 10× más rápido</text>
+
+  <!-- Eje y footer -->
+  <text x="600" y="528" font-size="20" fill="#7a8a82" text-anchor="middle">Tiempo (minutos por semana · 2 conductores)</text>
+  <text x="60" y="600" font-size="18" fill="#9aa6a0">Datos de ejemplo del reto · Mis Turnos, 2026</text>
+</svg>

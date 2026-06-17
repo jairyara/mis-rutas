@@ -91,30 +91,30 @@ export function parse(texto) {
 }
 
 // --------- Prueba contra datos reales (incluye DESC, 2 trabajos, standby, fin de relevo) ---------
-const muestra = `255491 - GUTIERREZ DELGADO LUIS HERNANDO
+const muestra = `100245 - CONDUCTOR DE PRUEBA
 
-FECHA: Lunes 15/06/2026
+FECHA: Lunes 06/04/2026
 ASIGNACION: DESC
 DESC
 
-FECHA: Martes 16/06/2026
+FECHA: Martes 07/04/2026
 ASIGNACION: DESC
 DESC
 
-FECHA: Miércoles 17/06/2026
-ASIGNACION: KE107048 AMPLITUD: 09:45:30 PRODUCCION: 08:50:00
+FECHA: Miércoles 08/04/2026
+ASIGNACION: KE900101 AMPLITUD: 09:45:30 PRODUCCION: 08:50:00
 Trabajo 1 (03:30:30 - 09:06:45)
 Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
-03:30:30    Inicio servicio    -    PATIO AMÉRICAS    -
-03:35:30    Vacío    2    PATIO AMÉRICAS    KE2E20002
-03:40:30    9-11_FRANJA_SECA_NM_ (2645)    2    P. AMÉRICAS PLT 2_9-11    KE2E20002
-04:06:00    STANDBY    -    P. AMÉRICAS PLT 2_9-11    -
-09:05:45 - 09:06:45    Fin de relevo    -    P. AMÉRICAS PLT 2_9-11    -
+03:30:30    Inicio servicio    -    PATIO DEMO SUR    -
+03:35:30    Vacío    2    PATIO DEMO SUR    KE9990002
+03:40:30    R1_RUTA_DEMO_NM_ (1001)    2    ESTACIÓN CENTRAL_R1    KE9990002
+04:06:00    STANDBY    -    ESTACIÓN CENTRAL_R1    -
+09:05:45 - 09:06:45    Fin de relevo    -    ESTACIÓN CENTRAL_R1    -
 Trabajo 2 (10:02:15 - 13:16:00)
 Hora Inicio    Tipo de tarea    Vehículo    Parada inicio    Servicio Vehículo
-10:02:15    Relevo    -    P. AMÉRICAS PLT 2_9-11    -
-10:05:15    9-11_FRANJA_SECA_NM_ (2645)    5    P. AMÉRICAS PLT 2_9-11    KE2E20005
-13:15:00 - 13:16:00    Fin de relevo    -    P. AMÉRICAS PLT 2_9-11    -`;
+10:02:15    Relevo    -    ESTACIÓN CENTRAL_R1    -
+10:05:15    R1_RUTA_DEMO_NM_ (1001)    5    ESTACIÓN CENTRAL_R1    KE9990005
+13:15:00 - 13:16:00    Fin de relevo    -    ESTACIÓN CENTRAL_R1    -`;
 
 const r = parse(muestra);
 console.log("Conductor:", r.conductor);
